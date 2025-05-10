@@ -3,8 +3,12 @@ import NotificationCenter from '../components/Notifications/NotificationCenter';
 import Navbar from '../components/Authentication/Navbar';
 
 function NotificationsPage() {
-  return <NotificationCenter />;
-  return <Navbar />;
+  return (
+    <>
+      <Navbar />
+      <NotificationCenter />
+    </>
+  );
 }
 
 export default NotificationsPage;
