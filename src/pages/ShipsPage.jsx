@@ -36,6 +36,7 @@ function ShipsPage() {
 
   return (
     <div style={{ padding: '2rem' }}>
+      <Navbar />
       <h2>Ships List</h2>
 
       <ul>
@@ -76,7 +77,7 @@ function ShipsPage() {
       <hr style={{ margin: '2rem 0' }} />
 
       <ComponentList />
-      <Navbar />
+      
     </div>
   );
 }
