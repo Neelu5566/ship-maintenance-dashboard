@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import ComponentList from '../components/Components/ComponentList';
+import Navbar from '../components/Authentication/Navbar';
 
 function ShipsPage() {
   const [ships, setShips] = useState([]);
@@ -75,6 +76,7 @@ function ShipsPage() {
       <hr style={{ margin: '2rem 0' }} />
 
       <ComponentList />
+      <Navbar />
     </div>
   );
 }
