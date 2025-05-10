@@ -1,3 +1,9 @@
+# ignore node_modules and junk
 node_modules/
 build/
+dist/
 .env
+.DS_Store
+*.log
+.vscode/
+.cache/
