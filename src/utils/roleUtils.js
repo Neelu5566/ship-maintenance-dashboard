@@ -1,0 +1,1 @@
+export const checkRole = (userRole, requiredRole) => userRole === requiredRole;
